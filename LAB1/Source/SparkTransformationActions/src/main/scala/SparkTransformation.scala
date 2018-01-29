@@ -1,27 +1,50 @@
 import org.apache.spark.{SparkConf, SparkContext}
 
-/**
-  * Created by Mayanka on 01-Sep-16.
-  */
-object SparkTransformation {
-  def main(args: Array[String]): Unit = {
 
 
-    //System.setProperty("hadoop.home.dir", "F:\\winutils");
+object SparkWordCount {
+  def main(args: Array[String]) {
 
-    val sparkConf = new SparkConf().setAppName("SparkTransformation").setMaster("local[*]")
+    val conf = new SparkConf().setAppName("SparkWordCount").setMaster("local").set("com.spark.executor", "")
 
-    val sc = new SparkContext(sparkConf)
+    val sc = new SparkContext(conf)
 
-    val movies_input=sc.textFile("input")
+    val movierate = sc.textFile("u.data")
 
-    val wc=movies_input.flatMap(line=>{line.split(" ")})
+    //map transformation -- split the file contents with tab separation
+    val spliting = movierate.map{t =>
+      val p = t.split("\t")
+      (p(0),1)
+    }
 
-    top_movies = new_user_recommendations_rating_title_and_count_RDD.filter(lambda r: r[2]>=25).takeOrdered(25, key=lambda x: -x[1])
+
+    //reduceByKey transformation -- reduce the distinct userid
+    val op3= spliting.reduceByKey((x,y) => x+y)
+    //op3.saveAsTextFile("test2")
+
+    //sortBy transformation -- to sort the RDD based on value
+    val sorting = op3.sortBy(_._2, false)
+
+    //SaveAsTextFile action -- to save the sorted usreid
+    sorting.saveAsTextFile("Sorted_userid")
+//val hey = sorting.take(25)
+    //hey.foreach(println(_))
+
+  val hey = sorting.filter(_._2 > 25)
+    hey.saveAsTextFile("test3")
+     // var first25 = sorting.map((_, 1L))
+      //.reduceByKey(_ + _)
+      //.map{ case ((k, v)) => (k, (v >=25)) }
+      //.groupByKey
+    //first25.saveAsTextFile("test3")
+
+    //print the first element from RDD
 
 
 
-    wc.foreach(println(_))
+    //Stop the SparkContext
+    //sc.stop()
+
 
   }
 
