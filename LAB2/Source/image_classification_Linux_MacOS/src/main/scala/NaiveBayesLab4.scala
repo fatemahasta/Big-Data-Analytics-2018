@@ -51,8 +51,6 @@ object NaiveBayesLab4 {
 
   def main(args: Array[String]) {
 
-    System.setProperty("hadoop.home.dir","C:\\Users\\mraje_000\\Documents\\IntelljWorkSpace\\hadoopforspark");
-
     val conf = new SparkConf()
       .setAppName(s"IPApp")
       .setMaster("local[*]")
