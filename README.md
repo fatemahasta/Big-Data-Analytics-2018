@@ -5,4 +5,7 @@ ICP2:- https://github.com/fatemahasta/Big-Data-Analytics-2018/wiki/ICP-Assignmen
 Lab Assignment 1:- https://github.com/fatemahasta/Big-Data-Analytics-2018/wiki/Lab-Assignment-1      
 ICP3:- https://github.com/fatemahasta/Big-Data-Analytics-2018/wiki/ICP-Assignment-3     
 ICP4:- https://github.com/fatemahasta/Big-Data-Analytics-2018/wiki/ICP-Assignment-4      
+Lab Assignment 1:- https://github.com/fatemahasta/Big-Data-Analytics-2018/wiki/Lab-Assignment-2            
+ICP3:- https://github.com/fatemahasta/Big-Data-Analytics-2018/wiki/ICP-Assignment-5     
+ICP4:- https://github.com/fatemahasta/Big-Data-Analytics-2018/wiki/ICP-Assignment-6      
 
