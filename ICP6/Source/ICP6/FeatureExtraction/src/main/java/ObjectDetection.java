@@ -69,6 +69,7 @@ class ObjectMainDetection {
 
     public void StartVideo() throws IOException {
         Video<MBFImage> video = new XuggleVideo(new File("data/videoplayback.mkv"));
+
         int count1 = 0, count2 = 0, count3 = 0;
         String o1 = "output/features.txt";
         FileWriter fw = new FileWriter(o1);

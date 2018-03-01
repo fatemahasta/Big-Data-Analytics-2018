@@ -1,4 +1,4 @@
-[info] Updating {file:/home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/}image_classification...
+[info] Updating {file:/home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/}image_classification...
 [debug] :: resolving dependencies :: default#image_classification_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for default#image_classification_2.11;1.0 [compile]
 [debug] == resolving dependencies default#image_classification_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13bcf38f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@389b01b5
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -32,7 +32,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.11/2.0.1/spark-mllib_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.11/2.0.1/spark-mllib_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.11/2.0.1/spark-mllib_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.11;2.0.1!spark-mllib_2.11.pom(pom.original) (146ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.11;2.0.1!spark-mllib_2.11.pom(pom.original) (217ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.0.1 {}
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
@@ -50,7 +50,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.0.1/spark-parent_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.0.1/spark-parent_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.0.1/spark-parent_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-parent_2.11;2.0.1!spark-parent_2.11.pom(pom.original) (217ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-parent_2.11;2.0.1!spark-parent_2.11.pom(pom.original) (277ms)
 [info] Resolving org.apache#apache;14 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache#apache;14 {}
 [debug] sbt-chain: module revision found in cache: org.apache#apache;14
@@ -79,9 +79,9 @@
 [debug] == resolving dependencies default#image_classification_2.11;1.0->org.apache.spark#spark-mllib_2.11;2.0.1 [compile->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.11;2.0.1->org.apache.spark#spark-core_2.11;2.0.1 [compile->master(compile)]
 [info] Resolving org.apache.spark#spark-core_2.11;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4135ca95
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dd03d2c
 [info] Resolving org.apache.spark#spark-core_2.11;2.0.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@4135ca95
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1dd03d2c
 [debug] 		tried /home/fatema/.ivy2/local/org.apache.spark/spark-core_2.11/2.0.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.spark#spark-core_2.11;2.0.1
 [debug] 		tried /home/fatema/.sbt/preloaded/org.apache.spark/spark-core_2.11/2.0.1/ivys/ivy.xml
@@ -95,7 +95,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.0.1/spark-core_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.0.1/spark-core_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.0.1/spark-core_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-core_2.11;2.0.1!spark-core_2.11.pom(pom.original) (138ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-core_2.11;2.0.1!spark-core_2.11.pom(pom.original) (179ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.0.1 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.0.1
@@ -1538,7 +1538,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.0.1/spark-launcher_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.0.1/spark-launcher_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.0.1/spark-launcher_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.11;2.0.1!spark-launcher_2.11.pom(pom.original) (132ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.11;2.0.1!spark-launcher_2.11.pom(pom.original) (133ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.0.1 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.0.1
@@ -1570,7 +1570,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-launcher_2.11;2.0.1->org.apache.spark#spark-tags_2.11;2.0.1 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-tags_2.11;2.0.1->org.scalatest#scalatest_2.11;2.2.6 [compile->master(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74254069
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43702806
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.6
 [debug] 	found org.scalatest#scalatest_2.11;2.2.6 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-tags_2.11;2.0.1->org.scalatest#scalatest_2.11;2.2.6 [compile->compile(*)]
@@ -1645,7 +1645,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.0.1/spark-network-common_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.0.1/spark-network-common_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.0.1/spark-network-common_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.11;2.0.1!spark-network-common_2.11.pom(pom.original) (137ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.11;2.0.1!spark-network-common_2.11.pom(pom.original) (133ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.0.1 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.0.1
@@ -1707,7 +1707,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.0.1/spark-network-shuffle_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.0.1/spark-network-shuffle_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.0.1/spark-network-shuffle_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.11;2.0.1!spark-network-shuffle_2.11.pom(pom.original) (132ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.11;2.0.1!spark-network-shuffle_2.11.pom(pom.original) (160ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.0.1 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.0.1
@@ -2157,24 +2157,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@6ca94078
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@782d8928
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@7a99f2da
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@20858f56
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@4be092eb
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@1697e1fe
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1ccf9b36
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@29dba2d3
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@3ac3b257
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@40413439
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@2037012c
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@7c15e77
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@443c4048
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@d95540a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@3d2b0a09
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@18694211
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@6c50a6f5
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@9ce9234
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7e8f403d
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@2c24ec37
 [info] Resolving org.glassfish.hk2#hk2-utils;2.4.0-b34 ...
 [debug] sbt-chain: Checking cache for: dependency: org.glassfish.hk2#hk2-utils;2.4.0-b34 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.glassfish.hk2#hk2-utils;2.4.0-b34
@@ -2199,24 +2199,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1996aac7
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@17f3537e
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@419772c2
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@322eb07e
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@3fb55304
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@61fe30fa
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@265748f1
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@501f5740
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@a3b0e6e
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@70c06c89
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@65f82ce6
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@79f4e068
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@2b6ec946
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@58394c86
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@5dfa969e
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@1a90601f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@af9fa57
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@20f6091f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@29b135f9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@30b82848
 [info] Resolving org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 ...
 [debug] sbt-chain: Checking cache for: dependency: org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34
@@ -2299,24 +2299,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@6ee3e2f9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@593baadb
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@6d0bad45
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@7176e497
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@4eaa3763
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@1711695f
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@929853d
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@47a8e0ff
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@78ac5acb
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@487db11e
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@57f3965d
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@12b6f1f3
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@8d68b6c
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@2d063e29
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@43c1e7a3
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@5d5f110
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@19922b64
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@19bd8fb1
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@558d8fda
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7ffab90a
 [info] Resolving org.javassist#javassist;3.18.1-GA ...
 [debug] sbt-chain: Checking cache for: dependency: org.javassist#javassist;3.18.1-GA {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.18.1-GA
@@ -3531,9 +3531,9 @@
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.1->org.spark-project.spark#unused;1.0.0 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.11;2.0.1->org.apache.spark#spark-streaming_2.11;2.0.1 [compile->master(compile)]
 [info] Resolving org.apache.spark#spark-streaming_2.11;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bbdb70a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@397c2a96
 [info] Resolving org.apache.spark#spark-streaming_2.11;2.0.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@bbdb70a
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@397c2a96
 [debug] 		tried /home/fatema/.ivy2/local/org.apache.spark/spark-streaming_2.11/2.0.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.spark#spark-streaming_2.11;2.0.1
 [debug] 		tried /home/fatema/.sbt/preloaded/org.apache.spark/spark-streaming_2.11/2.0.1/ivys/ivy.xml
@@ -3547,7 +3547,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.0.1/spark-streaming_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.0.1/spark-streaming_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.0.1/spark-streaming_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.11;2.0.1!spark-streaming_2.11.pom(pom.original) (132ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.11;2.0.1!spark-streaming_2.11.pom(pom.original) (144ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.0.1 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.0.1
@@ -3589,7 +3589,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.0.1/spark-sql_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.0.1/spark-sql_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.0.1/spark-sql_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-sql_2.11;2.0.1!spark-sql_2.11.pom(pom.original) (132ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-sql_2.11;2.0.1!spark-sql_2.11.pom(pom.original) (155ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.0.1 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.0.1
@@ -3619,7 +3619,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.0.1/spark-sketch_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.0.1/spark-sketch_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.0.1/spark-sketch_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-sketch_2.11;2.0.1!spark-sketch_2.11.pom(pom.original) (131ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-sketch_2.11;2.0.1!spark-sketch_2.11.pom(pom.original) (169ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.0.1 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.0.1
@@ -3633,9 +3633,9 @@
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.1->org.apache.spark#spark-core_2.11;2.0.1 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.1->org.apache.spark#spark-catalyst_2.11;2.0.1 [compile->master(compile)]
 [info] Resolving org.apache.spark#spark-catalyst_2.11;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48a2dade
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@591ff71d
 [info] Resolving org.apache.spark#spark-catalyst_2.11;2.0.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@48a2dade
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@591ff71d
 [debug] 		tried /home/fatema/.ivy2/local/org.apache.spark/spark-catalyst_2.11/2.0.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.spark#spark-catalyst_2.11;2.0.1
 [debug] 		tried /home/fatema/.sbt/preloaded/org.apache.spark/spark-catalyst_2.11/2.0.1/ivys/ivy.xml
@@ -3649,7 +3649,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.0.1/spark-catalyst_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.0.1/spark-catalyst_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.0.1/spark-catalyst_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.11;2.0.1!spark-catalyst_2.11.pom(pom.original) (184ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.11;2.0.1!spark-catalyst_2.11.pom(pom.original) (209ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.0.1 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.0.1
@@ -3681,20 +3681,20 @@
 [debug] 	found org.codehaus.janino#janino;2.7.8 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
 [debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@3787a91a
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@13df5f6a
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@1735b2c6
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@47a3ad28
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@24ab2166
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@1eb204b7
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@44a230a4
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@39243874
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@44f98e27
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@4a60adb3
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@1f12934b
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@7edef45
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@fedd129
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@40aff852
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@35d4fa55
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@49af8986
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@72e9a22f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@3e0cde18
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@19ced262
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@2689f3ae
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@7e2d0579
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@16b3111f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@79818c69
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@107c1474
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@6eccdcf
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@8591fe4
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7dce2842
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@d615c3b
 [info] Resolving org.codehaus.janino#commons-compiler;2.7.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.codehaus.janino#commons-compiler;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.codehaus.janino#commons-compiler;2.7.8
@@ -3881,7 +3881,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.11/2.0.1/spark-graphx_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.11/2.0.1/spark-graphx_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.11/2.0.1/spark-graphx_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.11;2.0.1!spark-graphx_2.11.pom(pom.original) (133ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.11;2.0.1!spark-graphx_2.11.pom(pom.original) (137ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.0.1 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.0.1
@@ -3927,9 +3927,9 @@
 [debug] == resolving dependencies org.apache.spark#spark-graphx_2.11;2.0.1->org.spark-project.spark#unused;1.0.0 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.11;2.0.1->org.apache.spark#spark-mllib-local_2.11;2.0.1 [compile->master(compile)]
 [info] Resolving org.apache.spark#spark-mllib-local_2.11;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@495bf5e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d3bfd35
 [info] Resolving org.apache.spark#spark-mllib-local_2.11;2.0.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@495bf5e9
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1d3bfd35
 [debug] 		tried /home/fatema/.ivy2/local/org.apache.spark/spark-mllib-local_2.11/2.0.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.spark#spark-mllib-local_2.11;2.0.1
 [debug] 		tried /home/fatema/.sbt/preloaded/org.apache.spark/spark-mllib-local_2.11/2.0.1/ivys/ivy.xml
@@ -3943,7 +3943,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib-local_2.11/2.0.1/spark-mllib-local_2.11-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib-local_2.11/2.0.1/spark-mllib-local_2.11-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib-local_2.11/2.0.1/spark-mllib-local_2.11-2.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-mllib-local_2.11;2.0.1!spark-mllib-local_2.11.pom(pom.original) (132ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-mllib-local_2.11;2.0.1!spark-mllib-local_2.11.pom(pom.original) (139ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.0.1 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.0.1
@@ -6095,24 +6095,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@62d03e8a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@239941f8
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@17e52d7a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@50be27e7
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@2399a3e9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@1e6873b
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@454997db
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@30d23990
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@260ec596
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@183ea2d0
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@7656ccd5
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@7f286a8b
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@2fda328d
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@421f2d84
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@592d28f3
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@780dbd2e
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@4d67224b
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@6cd88cce
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@5c824b16
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@49f37965
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->compile(*)]
 [debug] excluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -6133,24 +6133,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@3e2f3f82
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@15643ae6
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@401f2c90
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@5b7019a7
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@7bd75a1a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@99a6bfd
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@24a60d7
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@273d4c8b
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@45de8c33
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@7c1c43b4
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@3d5ac1a7
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@6cc75203
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@5d49e4bc
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@43d61d42
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@13bae180
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@485c6f71
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@12433004
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@5f577fd3
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@1ba52358
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@30a9e0ba
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -6221,24 +6221,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@4be4e998
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@7fc285d1
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1f2a5b59
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@3bc60be3
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@66768987
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@7e683dcc
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@772b763a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@1a18c883
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1befe96e
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@565299d9
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@43a0825
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@280c243e
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@4c4c1cc8
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@e92c8c9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@711f2a1c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7a8dbecf
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@45b47a0f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@1934feea
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@1173681a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@69fc73d
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-locator;2.4.0-b34->org.javassist#javassist;3.18.1-GA [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -6460,20 +6460,20 @@
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.codehaus.janino#janino;2.7.8 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
 [debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@5c085275
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@3d87607
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@79199634
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@67b07b5d
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@79b51624
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@391d2f5b
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@c80b67a
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@680e4e24
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@395b6137
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@69ece6b0
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@60d6be91
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@7a33a3c1
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@18033769
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@16d49bbf
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@f4d3c4a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@6d862400
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@3cb2a386
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@69d6e1ff
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@f9f3fe3
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@5365bc34
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@7ae28b4d
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@246544f7
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@52f307bf
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@2c0985c9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@42dfcbe6
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@4c936db6
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@6174564
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@66d0bfa2
 [debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)]
@@ -9584,24 +9584,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@6ab38edc
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4ea57721
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1e78dd1e
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@74f7a6b6
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@3a0aa58f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4d34d33c
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@f6672ff
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4bdfd9ca
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@7955c8a1
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@219d7ab8
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@4ed485d9
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@7299f776
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@255e3944
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@6fdccfed
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@2e26b3ef
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@672d728b
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@cebe061
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@394f79bf
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@226d1cb2
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@2ed88b5e
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->compile(*)]
 [debug] excluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -9622,24 +9622,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@38d3000a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@3f23829e
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@6c938a4d
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@75e19144
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@65399395
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@1f8976dd
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@3bf1ac5
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@7efb88ce
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@23cc89e8
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@537dae3e
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@7af13aff
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@1e36e56
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@4627244b
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@78957eef
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@5d6fc2fd
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@24fd03a5
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7096a679
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@5289ed5d
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7152a5db
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@3d7e607f
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -9710,24 +9710,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@259c9f87
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@74599918
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1ee9d0c5
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4014861f
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@195fb9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@48c52e7e
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@62bc5de5
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@79544e79
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@239d8692
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@732205dc
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@390c7896
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@395f4927
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@76b9e188
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@15d61666
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@41fd9912
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@25bddb4c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@446aa75b
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@1f161e29
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@320e31d0
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7922fb66
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-locator;2.4.0-b34->org.javassist#javassist;3.18.1-GA [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -9949,20 +9949,20 @@
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.codehaus.janino#janino;2.7.8 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
 [debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@3eab7857
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@3cee4163
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@69c44932
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@4191a8e8
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@241d194d
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@6ab6a1f4
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@21f0f849
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@6d6ad277
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@217169e6
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@7e17d53d
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@58034806
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@6341c01b
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@49d5abcc
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@92b31f6
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@6b49bf26
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@97c07ac
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@2bee91c0
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@221441ec
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@4827a07
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@6d2a5c5c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@3215b0a8
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@328e9c27
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@25cb8a33
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@1abcfa6a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@5338965
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@431a5240
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@3af9c202
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@47eb109d
 [debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)]
@@ -13054,19 +13054,19 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@27db0b9d
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@a8d99d0
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@7c98d0ba
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@6d093b2
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@5786edb6
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@411286c4
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@4d0a819c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@bfe1700
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@32f2fc43
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@6ddb4cb6
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->compile(*)]
 [debug] excluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -13089,19 +13089,19 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@685e5056
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@3a65903c
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@71c12aa0
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@41d8d667
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@54f4d03f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@76d19c16
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@73bb7dc9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@39f7049f
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@697d4f08
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@2f8587ed
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -13174,19 +13174,19 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@33f58aea
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@3b6ab4f4
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@5c37d429
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@6fac2cd6
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@205fd92
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@13aa50d1
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@7af446e1
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@c3ff334
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@6549218f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@629c2b53
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-locator;2.4.0-b34->org.javassist#javassist;3.18.1-GA [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -16013,27 +16013,27 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@3711bdbd
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@5ac902b
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@5d1baca3
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@5c12619b
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@23c4e92d
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@7901d0ed
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@13537a7c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@5b85ccb8
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@2915c1fe
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@3a49322b
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@296b0ecb
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@2de2074a
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@256a1810
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@22f73772
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@539b68b1
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@6e7efddf
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@75189240
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@2e9a2b6
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@77fc4e5f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@457e2e1
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@356ceab9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7adf02b0
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->compile(*)]
 [debug] excluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -16054,27 +16054,27 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@f62a39
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@543f92e1
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@8200476
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@65483fd
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@11a980a8
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@41ccb05
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@409b517
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4abe12a1
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@359ff04d
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@62be398d
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@3d14413c
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@60653af6
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@298d9ae0
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@635a1a04
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@7c58baf2
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@35a39d05
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4057154c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@2271aaa0
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@18608f55
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@b81bf85
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@730436cc
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@5c0fb6a6
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -16149,27 +16149,27 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1334a518
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@14ad6049
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@58ce2442
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@5dc1a255
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@49911c8b
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@6c4dfc4c
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@3753580b
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4e3cf356
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1f9379c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@316c6df0
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@283cefd5
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@6908db1d
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@44b64537
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@c3bdfea
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@43b6cbff
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@6c4920a7
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@616fb282
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@62c39d7f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@4b4c6432
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@191d9346
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@57ad945
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7bac94f0
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-locator;2.4.0-b34->org.javassist#javassist;3.18.1-GA [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -16399,20 +16399,20 @@
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.codehaus.janino#janino;2.7.8 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
 [debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@501e9cc
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@36b01498
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@9bed180
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@39b637de
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@3373f6ad
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@551208f
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@7a1cd374
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@729c032e
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@5e76554e
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@522f5357
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@4eb4ad15
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@5ca3529e
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@3093b061
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@180ee8cf
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@19ef7f7f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@4354e11c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@6dce6e6
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@49e5d680
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@2b135c44
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@4fab043b
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@2e2120fe
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@4997b26c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@78d73666
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@6fca7f9b
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@484b844c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@3cbb4bfb
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7d9e2e0c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@4194b083
 [debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)]
@@ -19530,24 +19530,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1a8f05a4
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@5c9fc6b1
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1b54fa48
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@1d81e257
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@4dfa0e2
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@3c025d07
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@7f5cf2b2
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@149f7080
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1d1c7ad8
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@21265589
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@588739ff
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@40d6993f
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@3e62f147
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@2dfb711f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@369786ec
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@24164933
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@a52c2d3
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@6526b869
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@6f0ce2c7
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@79c561c4
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->compile(*)]
 [debug] excluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -19568,24 +19568,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@38b98a5a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@35a8695f
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@11f8bcc3
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@3dbaaff7
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@67fd446a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@6fa322c5
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@3c18eb16
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@6133698c
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@48875d95
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@1c4deee2
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@111e3715
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@6aa52e7b
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@18bcad4f
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@6b757a44
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@17a70664
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7f8ac670
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@9c9764e
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@73cc11f2
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@5cf7bdc9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@75674961
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -19656,24 +19656,24 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@605f4d31
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4b6fdf56
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@682bedc3
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4c66eaf2
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@2483ebfb
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@77769bc6
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@59884308
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@ba1fb4e
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@4324abcd
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@7456139f
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@4fb1f2dd
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@54ba6820
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@32a6cbb9
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@76a8fc99
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@3e810003
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@454b5c5b
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@6a0579f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@2dfa78e
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@34e83ece
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@2b5e058c
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-locator;2.4.0-b34->org.javassist#javassist;3.18.1-GA [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -19895,20 +19895,20 @@
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.codehaus.janino#janino;2.7.8 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
 [debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@7ba110b1
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@5d6a459e
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@5a6bf413
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@545efc0b
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@27894aa9
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@28c0ad73
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@2d0e1f14
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@e13101a
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@6322cf73
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@4e244d51
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@130f0d3e
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@50a4c85
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@70a64200
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@1c84d780
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@6391c8e9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@1710ed1c
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@6b7bf01e
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@6432b4e0
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@989ee0f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@19619a2f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@2dae721d
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@5cca46fc
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@1a7522fc
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@f50737f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@51b0c612
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@5f43977e
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@6c923ca8
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@605561ce
 [debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)]
@@ -23059,27 +23059,27 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@5d11abec
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@d6e419f
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@2fa4c0cc
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@696cd850
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@b7c1891
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@15971013
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1a7263d
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@309b8532
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@51b9b32e
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4f065807
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@5892ab75
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@33c18866
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@befc6ed
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@17d3247d
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@5ad7ecf1
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@65eacd75
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4027b7ef
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@6d9d2070
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@1c39ae4
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7cf83cbb
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@11d7404
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@5875af7
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->compile(*)]
 [debug] excluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -23100,27 +23100,27 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@1e398932
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@25ae0e57
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@7bec4e60
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4f79f3b2
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@485eb50d
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@70965848
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@6588b862
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@1fd7d46f
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@37aacdf8
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4adead74
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@2eac0a23
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@13672426
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@338cc580
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@52a81b04
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@1c1bfe60
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@3677afd1
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4a3a23fe
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@8ac66e9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@29f9af3f
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@16f30279
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@d4df68a
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@663d52e4
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -23195,27 +23195,27 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@234cc8f2
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@277a32a4
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@9397b84
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@300e2b34
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@3e8d6b6b
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@4eac1bcc
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@207d8ad6
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@56b1b73f
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@6533dd73
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@2028405f
 [debug] dependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: com.google.guava#guava;18.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: com.fasterxml.jackson.core#jackson-databind;2.5.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@22feb0d9 => sbt.ivyint.MergedDescriptors@27946f0a
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@72978ea0
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@3e70811e
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@45531be6
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@413bd079
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@f97b470
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@35a14a5d => sbt.ivyint.MergedDescriptors@613e98e5
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@4f629d75
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@14b1d3e9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@76f95398
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@63950412
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@3847b420
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] == resolving dependencies org.glassfish.hk2#hk2-locator;2.4.0-b34->org.javassist#javassist;3.18.1-GA [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -23445,20 +23445,20 @@
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.codehaus.janino#janino;2.7.8 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
 [debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@1df63fc7
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@5de68a19
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@53e5d9a3
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@365cc353 => sbt.ivyint.MergedDescriptors@6d7b74ef
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@41df7680
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@28809ae0
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@55557692
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@633fbcdb
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4de603bf => sbt.ivyint.MergedDescriptors@596ead4a
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@75156b1d
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@b8a62cb
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@15cdde05
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@39e5350b
-[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@f7988f7 => sbt.ivyint.MergedDescriptors@6776eca9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@37a87362
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@42828467
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@54904740
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@4e304321 => sbt.ivyint.MergedDescriptors@764dc901
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@20a87c9
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@54fd8a53
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@2817dcb
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@1a1cb95b
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@2c188dde => sbt.ivyint.MergedDescriptors@4cfe511e
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7469e5c0
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7d0fa1a3
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@2a61938
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@3c6eced3
+[debug] dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@31d8ddc5 => sbt.ivyint.MergedDescriptors@7127b7b
 [debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.1->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)]
@@ -25194,21 +25194,21 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 11760ms :: artifacts dl 103ms
-[debug] 	report for default#image_classification_2.11;1.0 compile produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-compile.xml
-[debug] 	report for default#image_classification_2.11;1.0 runtime produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-runtime.xml
-[debug] 	report for default#image_classification_2.11;1.0 test produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-test.xml
-[debug] 	report for default#image_classification_2.11;1.0 provided produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-provided.xml
-[debug] 	report for default#image_classification_2.11;1.0 optional produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-optional.xml
-[debug] 	report for default#image_classification_2.11;1.0 compile-internal produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-compile-internal.xml
-[debug] 	report for default#image_classification_2.11;1.0 runtime-internal produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-runtime-internal.xml
-[debug] 	report for default#image_classification_2.11;1.0 test-internal produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-test-internal.xml
-[debug] 	report for default#image_classification_2.11;1.0 plugin produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-plugin.xml
-[debug] 	report for default#image_classification_2.11;1.0 sources produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-sources.xml
-[debug] 	report for default#image_classification_2.11;1.0 docs produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-docs.xml
-[debug] 	report for default#image_classification_2.11;1.0 pom produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-pom.xml
-[debug] 	report for default#image_classification_2.11;1.0 scala-tool produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-scala-tool.xml
-[debug] 	resolve done (11760ms resolve - 103ms download)
+[debug] :: resolution report :: resolve 21208ms :: artifacts dl 184ms
+[debug] 	report for default#image_classification_2.11;1.0 compile produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-compile.xml
+[debug] 	report for default#image_classification_2.11;1.0 runtime produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-runtime.xml
+[debug] 	report for default#image_classification_2.11;1.0 test produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-test.xml
+[debug] 	report for default#image_classification_2.11;1.0 provided produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-provided.xml
+[debug] 	report for default#image_classification_2.11;1.0 optional produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-optional.xml
+[debug] 	report for default#image_classification_2.11;1.0 compile-internal produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-compile-internal.xml
+[debug] 	report for default#image_classification_2.11;1.0 runtime-internal produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-runtime-internal.xml
+[debug] 	report for default#image_classification_2.11;1.0 test-internal produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-test-internal.xml
+[debug] 	report for default#image_classification_2.11;1.0 plugin produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-plugin.xml
+[debug] 	report for default#image_classification_2.11;1.0 sources produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-sources.xml
+[debug] 	report for default#image_classification_2.11;1.0 docs produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-docs.xml
+[debug] 	report for default#image_classification_2.11;1.0 pom produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-pom.xml
+[debug] 	report for default#image_classification_2.11;1.0 scala-tool produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/target/resolution-cache/reports/default-image_classification_2.11-scala-tool.xml
+[debug] 	resolve done (21208ms resolve - 184ms download)
 [info] Done updating.
 [warn] Scala version was updated by one of library dependencies:
 [warn] 	* org.scala-lang:scala-library:(2.11.8, 2.11.6, 2.11.4, 2.11.0, 2.11.1, 2.11.7) -> 2.11.11

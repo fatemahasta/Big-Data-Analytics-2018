@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180215174217"/>
+		date="20180225190929"/>
 	<dependencies>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient">
 			<revision name="2.2.0" status="release" pubdate="20131007013723" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
@@ -350,7 +350,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-core_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928203107" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
-				<metadata-artifact status="successful" details="" size="21046" time="140" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.0.1/spark-core_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="21046" time="106" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.0.1/spark-core_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="provided" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1732012" time="0" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.0.1-sources.jar">
@@ -1127,7 +1127,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-unsafe_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928203019" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="55">
-				<metadata-artifact status="successful" details="" size="4659" time="132" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.0.1/spark-unsafe_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="4659" time="189" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.0.1/spark-unsafe_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="provided" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-unsafe_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33189" time="0" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/srcs/spark-unsafe_2.11-2.0.1-sources.jar">
@@ -1155,7 +1155,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-shuffle_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928203653" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="54">
-				<metadata-artifact status="successful" details="" size="3995" time="196" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.0.1/spark-network-shuffle_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="3995" time="123" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.0.1/spark-network-shuffle_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="provided" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-network-shuffle_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37542" time="0" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/srcs/spark-network-shuffle_2.11-2.0.1-sources.jar">
@@ -1169,7 +1169,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-common_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928203039" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="48">
-				<metadata-artifact status="successful" details="" size="4897" time="741" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.0.1/spark-network-common_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="4897" time="118" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.0.1/spark-network-common_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="provided" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-network-common_2.11" type="jar" ext="jar" status="no" details="" size="2355467" time="0" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-network-common_2.11/jars/spark-network-common_2.11-2.0.1.jar">
@@ -1268,7 +1268,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-launcher_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928203457" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="43">
-				<metadata-artifact status="successful" details="" size="6390" time="198" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.0.1/spark-launcher_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="6390" time="118" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.0.1/spark-launcher_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="provided" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-launcher_2.11" type="jar" ext="jar" status="no" details="" size="65654" time="0" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-launcher_2.11/jars/spark-launcher_2.11-2.0.1.jar">
@@ -1282,7 +1282,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-tags_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928203125" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="44">
-				<metadata-artifact status="successful" details="" size="1856" time="171" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.0.1/spark-tags_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="1856" time="121" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/home/fatema/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.0.1/spark-tags_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="provided" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-tags_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14732" time="0" location="/home/fatema/.ivy2/cache/org.apache.spark/spark-tags_2.11/srcs/spark-tags_2.11-2.0.1-sources.jar">

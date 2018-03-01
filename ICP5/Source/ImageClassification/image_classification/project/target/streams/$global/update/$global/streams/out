@@ -1,4 +1,4 @@
-[info] Updating {file:/home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/}image_classification-build...
+[info] Updating {file:/home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/}image_classification-build...
 [debug] :: resolving dependencies :: default#image_classification-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -22,7 +22,7 @@
 [debug] == resolving dependencies for default#image_classification-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#image_classification-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@353ba42d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f72f88
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1775,19 +1775,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2656ms :: artifacts dl 142ms
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT compile produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-compile.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT runtime produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-runtime.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT test produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-test.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT provided produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-provided.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT optional produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-optional.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT compile-internal produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-compile-internal.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT runtime-internal produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-runtime-internal.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT test-internal produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-test-internal.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT plugin produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-plugin.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT sources produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-sources.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT docs produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-docs.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT pom produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-pom.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT scala-tool produced in /home/fatema/Downloads/CS5542-Tutorial3A-SparkAPI_Image_Classification/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-scala-tool.xml
-[debug] 	resolve done (2656ms resolve - 142ms download)
+[debug] :: resolution report :: resolve 2354ms :: artifacts dl 52ms
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT compile produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-compile.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT runtime produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-runtime.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT test produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-test.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT provided produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-provided.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT optional produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-optional.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT compile-internal produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-compile-internal.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT runtime-internal produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-runtime-internal.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT test-internal produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-test-internal.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT plugin produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-plugin.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT sources produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-sources.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT docs produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-docs.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT pom produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-pom.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT scala-tool produced in /home/fatema/Big-Data-Analytics-2018/ICP5/Source/ImageClassification/image_classification/project/target/resolution-cache/reports/default-image_classification-build-scala-tool.xml
+[debug] 	resolve done (2354ms resolve - 52ms download)
 [info] Done updating.
