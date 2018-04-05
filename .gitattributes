@@ -1,3 +1,5 @@
 ICP10 filter=lfs diff=lfs merge=lfs -text
 ICP9/ filter=lfs diff=lfs merge=lfs -text
 ICP10/** filter=lfs diff=lfs merge=lfs -text
+**LAB5/ filter=lfs diff=lfs merge=lfs -text
+LAB5/** filter=lfs diff=lfs merge=lfs -text
