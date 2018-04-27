@@ -54,4 +54,4 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 accu=sess.run(accuracy, feed_dict={x: ourmodel.test.images, y_: ourmodel.test.labels})
 
 # Print accuracy
-print("Test accuracy = " + str(accu))
+print("Accuracy = " + str(accu))

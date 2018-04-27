@@ -5,14 +5,10 @@ import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.mllib.tree.{DecisionTree, RandomForest}
 import org.apache.spark.{SparkConf, SparkContext}
 
-/**
-  * Created by Naga on 19-09-2016.
-  */
+
 object ImageClassification_RF {
   def main(args: Array[String]) {
     val IMAGE_CATEGORIES = Array("happy", "sad", "angry", "contempt", "disgust", "excited", "fear", "neutral", "scared", "surprise")
-    //System.setProperty("hadoop.home.dir", "C:\\Users\\Manikanta\\Documents\\UMKC Subjects\\PB\\hadoopforspark")
-    // Turn off Info Logger for Consolexxx
     Logger.getLogger("org").setLevel(Level.OFF);
     Logger.getLogger("akka").setLevel(Level.OFF);
     val sparkConf = new SparkConf().setAppName("ImageClassification").setMaster("local[*]")
